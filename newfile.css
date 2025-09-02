@@ -1,0 +1,131 @@
+.pricing {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.pricing-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+}
+.pricing-header p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.toggle {
+  display: inline-flex;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.toggle button {
+  padding: 10px 20px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.toggle button.active {
+  background: #BAFF66;
+  color: #111;
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+.plan {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+.plan .icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.plan h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.plan .subtext {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+.plan .price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.plan .price span {
+  font-size: 1rem;
+  color: #555;
+}
+.plan ul {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: left;
+}
+.plan ul li {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+.plan ul li.disabled {
+  color: #bbb;
+  text-decoration: line-through;
+}
+.btn {
+  display: block;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.btn.green {
+  background: #BAFF66;
+  color: #111;
+}
+.note {
+  font-size: 0.8rem;
+  color: #888;
+}
+.popular {
+  border: 2px solid #111;
+  transform: scale(1.05);
+}
+.popular .badge {
+  background: #111;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 5px 10px;
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3px;
+}
+
+#hw{
+    color: black;
+    font-size: 52px;
+    width: 636px;
+}
