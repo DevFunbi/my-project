@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Exa:wght@100..900&display=swap');
+
+
+
+body {
+padding: 0%;
+margin: 0%;
+background-color: #12141D;
+}
+
+header{
+  display: flex;
+  align-items: center;
+ padding: 34px 100px;
+ justify-content: space-between;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 26px;
+  color: #fff;
+  font-family: inter, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#navactions{
+  display: flex;
+  gap: 20px;
+}
+
+button{
+  padding: 14px 18px;
+border-radius: 4px;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+border: none;
+}
+
+#login{
+all: unset;
+color: #FFFFFF;
+font-family: "Inter", sans-serif; font-weight: inherit; font-size: inherit;
+gap: 20px;
+}
+
+#getstarted{
+  background-color: #CCFF8B;
+color: #12141D;
+}
+
+
+/* hero */
+
+.hero {
+display: flex;
+justify-content: space-between;
+padding: 30px 100px 120px 100px;
+gap: 50px;
+}
+
+.textarea {
+flex: 1;
+max-width: 600px;
+}
+.heroimage {
+flex: 1;
+display: flex;
+justify-content: center;
+}
+
+.heroimage00 {
+max-width: 100%;
+height: auto;
+}
+h1 {
+font-family: "Lexend Exa", sans-serif;
+font-size: 54px;
+line-height: 74px;
+color: #FFFFFF;
+font-weight: 600;
+margin-bottom: 30px;
+letter-spacing: -5px;
+}
+p {
+font-family: "Inter", sans-serif;
+font-size: 16px;
+line-height: 32px;
+color: #FFFFFF;
+font-weight: 300;
+margin-bottom: 40px;
+letter-spacing: -0.5px;
+opacity: 70%;
+}
+.herobutton {
+display: flex;
+gap: 20px;
+}
+.started {
+width: 160px;
+background-color: #CCFF8B;
+color: #12141D;
+font-weight: 600;
+height: 65px;
+}
+.packages {
+width: 160px;
+height: 65px;
+background-color: #FFFFFF;
+color: #12141D;
+font-weight: 600;
+}
+
